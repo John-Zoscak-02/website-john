@@ -1,0 +1,94 @@
+/*********************************
+General
+*********************************/
+html, body {
+  padding: 0px !important;
+  margin: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Arial', Fallback, sans-serif;
+  //text-align: center;
+}
+
+/*********************************
+Mixins
+*********************************/
+ @mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 1200px) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 992px) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 768px) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 650px)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 480px)  { @content ; }
+
+  }
+}
+
+
+/*********************************
+Grid
+*********************************/
+.grid {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.grid > * {
+  padding: 0px;
+  margin: 0px;
+}
+
+.grid-h {
+  @extend .grid;
+  padding: 16px;
+}
+
+.grid-2-h {
+  @extend .grid-h;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  @include breakpoint(phablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-3-h {
+  @extend .grid-h;
+  @include breakpoint(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  justify-items: center;
+}
+
+/*********************************
+Text
+*********************************/
+h1, h2, h3, h4, h5, h6, p, text {
+  padding: 16px;
+  font-weight: 4px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+  text-align: left;
+}
