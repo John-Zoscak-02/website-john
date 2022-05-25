@@ -2,7 +2,7 @@
   "name": "johnzoscak.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://johnzoscak.github.io/website-john/",
+  "homepage": "https://john-zoscak-02.github.io/website-john/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
