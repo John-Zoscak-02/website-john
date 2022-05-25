@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d57d574.css",
-    "main.js": "/static/js/main.0fb76b77.js",
-    "static/media/grad.jpg": "/static/media/grad.99b1491d9d6a6ed619fe.jpg",
-    "static/media/rotunda.jpg": "/static/media/rotunda.0fd18483d511cab4788d.jpg",
-    "static/media/matlab.png": "/static/media/matlab.2b608e94f8e1c2c9cd8e.png",
-    "static/media/java.png": "/static/media/java.fdabd4e11f1235e4e8e0.png",
-    "static/media/python.png": "/static/media/python.f0c9d64775aac23759fe.png",
-    "static/media/c++.png": "/static/media/c++.0a81196c8995a6248ba3.png",
-    "static/media/ubuntu.png": "/static/media/ubuntu.f9fb429d4d7fe4a84005.png",
-    "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
-    "static/media/css.png": "/static/media/css.3d6a8f65d43ec3a9f9f0.png",
-    "index.html": "/index.html",
-    "main.6d57d574.css.map": "/static/css/main.6d57d574.css.map",
-    "main.0fb76b77.js.map": "/static/js/main.0fb76b77.js.map"
+    "main.css": "/website-john/static/css/main.ff4e7e01.css",
+    "main.js": "/website-john/static/js/main.b6d42fd4.js",
+    "static/media/grad.jpg": "/website-john/static/media/grad.99b1491d9d6a6ed619fe.jpg",
+    "static/media/rotunda.jpg": "/website-john/static/media/rotunda.0fd18483d511cab4788d.jpg",
+    "static/media/matlab.png": "/website-john/static/media/matlab.2b608e94f8e1c2c9cd8e.png",
+    "static/media/java.png": "/website-john/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/python.png": "/website-john/static/media/python.f0c9d64775aac23759fe.png",
+    "static/media/c++.png": "/website-john/static/media/c++.0a81196c8995a6248ba3.png",
+    "static/media/ubuntu.png": "/website-john/static/media/ubuntu.f9fb429d4d7fe4a84005.png",
+    "static/media/javascript.png": "/website-john/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "static/media/css.png": "/website-john/static/media/css.3d6a8f65d43ec3a9f9f0.png",
+    "index.html": "/website-john/index.html",
+    "main.ff4e7e01.css.map": "/website-john/static/css/main.ff4e7e01.css.map",
+    "main.b6d42fd4.js.map": "/website-john/static/js/main.b6d42fd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d57d574.css",
-    "static/js/main.0fb76b77.js"
+    "static/css/main.ff4e7e01.css",
+    "static/js/main.b6d42fd4.js"
   ]
 }
