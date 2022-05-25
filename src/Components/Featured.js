@@ -10,7 +10,7 @@ const Featured = (props) => {
       <Fade big>
         <Divider variant="middle" classes={{ root: props.classes.divider }} />
         <Link href='https://drive.google.com/file/d/1hm2x2hlQXZmHrGEASsJem919KSJugsQG/preview' target='_blank' color='inherit' underline='hover'>
-          <Typography variant='h3'>Resume</Typography>
+          <Typography className='grow' variant='h3'>Resume</Typography>
         </Link>
       </Fade>
       <div className='pdf'>

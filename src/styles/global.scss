@@ -10,6 +10,24 @@ html, body {
   //text-align: center;
 }
 
+::selection {
+  background: #646464;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #646464;
+  /* Gecko Browsers */
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
 /*********************************
 Mixins
 *********************************/
