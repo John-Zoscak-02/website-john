@@ -15,7 +15,7 @@ const Featured = (props) => {
       </Fade>
       <div className='pdf'>
         <Fade big>
-          <iframe title='John Zoscak Resume, 2021' src='http://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1hm2x2hlQXZmHrGEASsJem919KSJugsQG&hl=en&embedded=true' alt='PDF of Resume' frameborder="0" />
+          <iframe title='John Zoscak Resume, 2021' src='https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1hm2x2hlQXZmHrGEASsJem919KSJugsQG&hl=en&embedded=true' alt='PDF of Resume' frameborder="0" />
         </Fade>
       </div>
     </div>
