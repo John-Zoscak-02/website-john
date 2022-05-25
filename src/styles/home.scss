@@ -196,6 +196,7 @@ Footer
       padding: 64px 32px 48px 32px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      align-items: center;
       .socials {
         margin-left: auto;
         img {
