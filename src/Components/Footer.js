@@ -4,6 +4,7 @@ import {Fade} from 'react-reveal';
 
 import Github from '../images/icons/github.png';
 import Linkedin from '../images/icons/linkedin.png';
+import JZ from '../images/jz.png';
 
 const Footer = (props) => {
   return (
@@ -15,9 +16,7 @@ const Footer = (props) => {
             <Link className='grow' underline='hover' color='inherit'>{'(703) 935-6163'}</Link>
             <Link className='grow' underline='hover' color='inherit'>{'jzoscak02@gmail.com'}</Link>
           </div>
-          <div className='end'>
-            <Link underline='hover' color='inherit'><Typography className='grow' variant='h4'>John Zoscak</Typography></Link>
-          </div>
+          <img className='grow' src={JZ} alt='jz icon'/>
           <div className='socials'>
             <IconButton size='small' onClick={() => {
               setTimeout(function () { }, '1000');

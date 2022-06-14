@@ -168,6 +168,7 @@ Projects
       grid-template-columns: repeat(3, 1fr);
       max-width: 1200px;
     } 
+    align-self: center;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -177,6 +178,9 @@ Projects
     .project-card {
       box-shadow: 1px 1px 8px;
       border-radius: 8px;
+      height: 632px;
+      margin-top: auto;
+      margin-bottom: auto;
       .project {
         padding: 8px;
         img {
@@ -197,6 +201,9 @@ Footer
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       align-items: center;
+      img {
+        justify-self: center;
+      }
       .socials {
         margin-left: auto;
         img {

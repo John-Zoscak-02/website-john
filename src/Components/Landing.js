@@ -15,7 +15,8 @@ const Landing = (props) => {
         <div className='about-me'>
           <Fade left>
             <Typography variant='h3'>About me</Typography>
-            <Typography variant='body1'>Hi, my name is John,(Populate with text describing me)</Typography>
+            <Typography variant='body1'>Computer Science Student at the School of Engineering and Applied Science at UVA</Typography>
+            <Typography variant='body1'>Graduate from Battlefield High School focusing on Computer Science, and aspiring Software developer.</Typography>
           </Fade>
         </div>
         <div className='landing-image-container'>

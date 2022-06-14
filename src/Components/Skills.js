@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Typography, Divider } from '@material-ui/core';
-import {Fade} from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 import java from '../images/skills/java.png';
 import git from '../images/skills/git.png';
@@ -12,7 +12,7 @@ import js from '../images/skills/javascript.png';
 import cpp from '../images/skills/c++.png';
 import python from '../images/skills/python.png';
 import ubuntu from '../images/skills/ubuntu.png';
-import matlab from '../images/skills/matlab.png';
+import go from '../images/skills/go.png';
 
 const Skills = (props) => {
   return (
@@ -32,7 +32,7 @@ const Skills = (props) => {
           <img src={cpp} alt='cpp' />
           <img src={python} alt='python' />
           <img src={ubuntu} alt='ubuntu' />
-          <img src={matlab} alt='matlab' />
+          <img src={go} alt='golang' />
         </Fade>
       </div>
     </div>
