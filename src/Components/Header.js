@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import {Fade} from 'react-reveal';
-import { Typography } from '@material-ui/core';
-import { createTheme } from '@material-ui/core/styles';
-import { common } from '@material-ui/core/colors';
+import { Typography } from '@mui/material';
+import { createTheme } from '@mui/material/styles';
+import { common } from '@mui/material/colors';
 
 const Header = (props) => {
 

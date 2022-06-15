@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Typography, Divider } from '@material-ui/core';
+import { Typography, Divider } from '@mui/material';
 import { Fade } from 'react-reveal';
 
 import Graduation from '../images/grad.jpg';

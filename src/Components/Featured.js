@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Typography, Divider, Link } from '@material-ui/core';
+import { Typography, Divider, Link } from '@mui/material';
 import { Fade } from 'react-reveal';
 
 const Featured = (props) => {

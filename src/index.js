@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import '../src/styles/home.scss';
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Layout from './Layout/Layout.js';
-import { CssBaseline } from '@material-ui/core';
+import CssBaseline from '@mui/material/CssBaseline';
 
 const theme = createTheme({
   palette: {
-    type: 'dark',
+    mode: 'dark',
   },
 });
 

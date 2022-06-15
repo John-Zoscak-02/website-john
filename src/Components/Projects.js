@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Card, CardMedia, CardContent, CardActionArea, CardHeader, Typography, Divider } from '@material-ui/core';
+import { Card, CardMedia, CardContent, CardActionArea, CardHeader, Typography, Divider } from '@mui/material';
 import {Fade} from 'react-reveal';
 import { projectData } from '../data/data';
 

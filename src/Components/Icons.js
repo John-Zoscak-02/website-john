@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Fade } from 'react-reveal';
-import { IconButton } from '@material-ui/core'
+import { IconButton } from '@mui/material';
 import Github from '../images/icons/github.png';
 import Linkedin from '../images/icons/linkedin.png';
 

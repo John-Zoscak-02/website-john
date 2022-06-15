@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IconButton, Typography, Link, Divider} from '@material-ui/core';
+import { IconButton, Link, Divider } from '@mui/material';
 import {Fade} from 'react-reveal';
 
 import Github from '../images/icons/github.png';
