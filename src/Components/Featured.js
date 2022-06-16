@@ -9,13 +9,13 @@ const Featured = (props) => {
     <div className='featured'>
       <Fade big>
         <Divider variant="middle" classes={{ root: props.classes.divider }} />
-        <Link href='https://drive.google.com/file/d/1hm2x2hlQXZmHrGEASsJem919KSJugsQG/preview' target='_blank' color='inherit' underline='hover'>
+        <Link href='https://drive.google.com/file/d/1UcPn02Jl-AiGy064pbAFQ8QDD8fqXpw5/preview' target='_blank' color='inherit' underline='hover'>
           <Typography className='grow' variant='h3'>Resume</Typography>
         </Link>
       </Fade>
       <div className='pdf'>
         <Fade big>
-          <iframe title='John Zoscak Resume, 2021' src='https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1hm2x2hlQXZmHrGEASsJem919KSJugsQG&hl=en&embedded=true' alt='PDF of Resume' frameborder="0" />
+          <iframe title='John Zoscak Resume, 2021' src='https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1UcPn02Jl-AiGy064pbAFQ8QDD8fqXpw5&hl=en&embedded=true' alt='PDF of Resume' frameborder="0" />
         </Fade>
       </div>
     </div>
