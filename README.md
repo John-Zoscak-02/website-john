@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hosted on Github pages at: https://john-zoscak-02.github.io/website-john/
 
 ## Available Scripts
 
