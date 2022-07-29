@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/website-john/static/css/main.ff4e7e01.css",
-    "main.js": "/website-john/static/js/main.b6d42fd4.js",
+    "main.css": "/website-john/static/css/main.8d214551.css",
+    "main.js": "/website-john/static/js/main.5d5da75c.js",
+    "static/media/project4.png": "/website-john/static/media/project4.ffe287c6a51b7a1b2f56.png",
+    "static/media/project1.png": "/website-john/static/media/project1.33fa7796555e67062029.png",
     "static/media/grad.jpg": "/website-john/static/media/grad.99b1491d9d6a6ed619fe.jpg",
     "static/media/rotunda.jpg": "/website-john/static/media/rotunda.0fd18483d511cab4788d.jpg",
-    "static/media/matlab.png": "/website-john/static/media/matlab.2b608e94f8e1c2c9cd8e.png",
+    "static/media/project2.png": "/website-john/static/media/project2.3009066d30820eb4a5f4.png",
+    "static/media/project5.png": "/website-john/static/media/project5.55e62dc07c42b2a8db3a.png",
+    "static/media/project6.png": "/website-john/static/media/project6.76c77b7d7c8a44a155fc.png",
     "static/media/java.png": "/website-john/static/media/java.fdabd4e11f1235e4e8e0.png",
     "static/media/python.png": "/website-john/static/media/python.f0c9d64775aac23759fe.png",
     "static/media/c++.png": "/website-john/static/media/c++.0a81196c8995a6248ba3.png",
+    "static/media/go.png": "/website-john/static/media/go.6a3cd1884425f3b03c7d.png",
     "static/media/ubuntu.png": "/website-john/static/media/ubuntu.f9fb429d4d7fe4a84005.png",
+    "static/media/jz.png": "/website-john/static/media/jz.6316b3c38f0936a21bc9.png",
     "static/media/javascript.png": "/website-john/static/media/javascript.266bd9fb2663dcc057b4.png",
     "static/media/css.png": "/website-john/static/media/css.3d6a8f65d43ec3a9f9f0.png",
     "index.html": "/website-john/index.html",
-    "main.ff4e7e01.css.map": "/website-john/static/css/main.ff4e7e01.css.map",
-    "main.b6d42fd4.js.map": "/website-john/static/js/main.b6d42fd4.js.map"
+    "main.8d214551.css.map": "/website-john/static/css/main.8d214551.css.map",
+    "main.5d5da75c.js.map": "/website-john/static/js/main.5d5da75c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff4e7e01.css",
-    "static/js/main.b6d42fd4.js"
+    "static/css/main.8d214551.css",
+    "static/js/main.5d5da75c.js"
   ]
 }
