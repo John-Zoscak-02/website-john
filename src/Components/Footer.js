@@ -21,11 +21,11 @@ const Footer = (props) => {
             <IconButton size='small' onClick={() => {
               setTimeout(function () { }, '1000');
               window.open('https://github.com/John-Zoscak-02/', "_blank")
-            }}><img src={Github} alt='GH' /></IconButton>
+            }}><img classname='sc_lnk' src={Github} alt='GH' /></IconButton>
             <IconButton size='small' onClick={() => {
               setTimeout(function () { }, '1000');
               window.open('https://www.linkedin.com/in/john-mzoscak/', "_blank");
-            }}><img src={Linkedin} alt='in' /></IconButton>
+            }}><img classname='sc_lnk' src={Linkedin} alt='in' /></IconButton>
           </div>
         </div>
       </Fade>

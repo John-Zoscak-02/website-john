@@ -11,6 +11,12 @@ const Header = (props) => {
     typography: {
       h1: {
         color: common.white,
+      },
+      h4: {
+        color: common.white,
+      },
+      h6: {
+        color: common.white,
       }
     }
   });
