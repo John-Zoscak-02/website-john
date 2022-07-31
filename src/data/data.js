@@ -33,7 +33,7 @@ export const projectData = [
     {
         name: "Map Theory Algorithms",
         image: project6,
-        description: "I have done significant work on map theory algorithms, and have implemented solutions for Dijkstra's algorithm, Kruskals, Prims, and other significant algorithms in map theory.",
+        description: "I have done several projects on map theory algorithms, and have implemented solutions for Dijkstra's algorithm, Kruskals, Prims, and other significant algorithms in map theory.",
         link: "https://github.com/John-Zoscak-02",
     },
     //{
