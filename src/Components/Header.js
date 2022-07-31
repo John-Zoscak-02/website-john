@@ -30,6 +30,7 @@ const Header = (props) => {
             <Typography variant='h4' theme={whiteText} align='left'>Hello, my name is</Typography>
             <Typography variant='h1' theme={whiteText} align='left'>John Zoscak</Typography>
             <Typography variant='h6' theme={whiteText} align='left'>BSCS student at SEAS of UVA</Typography>
+            <Typography variant='h4' theme={whiteText} align='left'>&#60;/&#62;</Typography>
           </Fade>
         </div>
       </div>
