@@ -13,6 +13,8 @@ import cpp from '../images/skills/c++.png';
 import python from '../images/skills/python.png';
 import ubuntu from '../images/skills/ubuntu.png';
 import go from '../images/skills/go.png';
+import sass from '../images/skills/sass.png';
+import c from '../images/skills/c.png';
 
 const Skills = (props) => {
   return (
@@ -33,6 +35,8 @@ const Skills = (props) => {
           <img className='grow' src={python} alt='python' />
           <img className='grow' src={ubuntu} alt='ubuntu' />
           <img className='grow' src={go} alt='golang' />
+          <img className='grow' src={sass} alt='sass' />
+          <img className='grow' src={c} alt='c' />
         </div>
       </Fade>
     </div>

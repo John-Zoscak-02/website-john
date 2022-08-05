@@ -15,13 +15,13 @@ export const projectData = [
     {
         name: "Terrain Generation",
         image: project2,
-        description: "For my first poject in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL.",
+        description: "For my first poject in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation.",
         link: "https://github.com/John-Zoscak-02/terrain-generation",
     }, 
     {
         name: "ILITE 2020 robot",
         image: project4,
-        description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the telemetry system, and an evasive movement function",
+        description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the telemetry system, and an evasive movement function.",
         link: "https://github.com/iliterobotics/FRC-Robot-2020/",
     }, 
     {

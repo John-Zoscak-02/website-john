@@ -19,11 +19,9 @@ const Footer = (props) => {
           <img className='icon grow' src={JZ} alt='jz icon'/>
           <div className='socials'>
             <IconButton size='small' onClick={() => {
-              setTimeout(function () { }, '1000');
               window.open('https://github.com/John-Zoscak-02/', "_blank")
             }}><img classname='sc_lnk' src={Github} alt='GH' /></IconButton>
             <IconButton size='small' onClick={() => {
-              setTimeout(function () { }, '1000');
               window.open('https://www.linkedin.com/in/john-mzoscak/', "_blank");
             }}><img classname='sc_lnk' src={Linkedin} alt='in' /></IconButton>
           </div>
