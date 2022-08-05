@@ -21,20 +21,20 @@ const Skills = (props) => {
         <Divider variant="middle" classes={{ root: props.classes.divider }} />
         <Typography variant='h3'>My Skills</Typography>
       </Fade>
-      <div className='skills-container'>
-        <Fade> 
-          <img src={java} alt='java' />
-          <img src={git} alt='git' />
-          <img src={react} alt='react' />
-          <img src={html} alt='html 5' />
-          <img src={css} alt='css' />
-          <img src={js} alt='js' />
-          <img src={cpp} alt='cpp' />
-          <img src={python} alt='python' />
-          <img src={ubuntu} alt='ubuntu' />
-          <img src={go} alt='golang' />
-        </Fade>
-      </div>
+      <Fade> 
+        <div className='skills-container'>
+          <img className='grow' src={java} alt='java' />
+          <img className='grow' src={git} alt='git' />
+          <img className='grow' src={react} alt='react' />
+          <img className='grow' src={html} alt='html 5' />
+          <img className='grow' src={css} alt='css' />
+          <img className='grow' src={js} alt='js' />
+          <img className='grow' src={cpp} alt='cpp' />
+          <img className='grow' src={python} alt='python' />
+          <img className='grow' src={ubuntu} alt='ubuntu' />
+          <img className='grow' src={go} alt='golang' />
+        </div>
+      </Fade>
     </div>
   );
 }

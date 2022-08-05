@@ -21,19 +21,23 @@ Header
   justify-content: center;
   margin-bottom: 16px;
   .header-text{
-    margin-right: 16px;
+    //margin-right: 16px;
     width: min-content;
-    @include breakpoint('phablet') {
-      width: fit-content;
-    }
     display: block;
-    position: absolute;
     border-radius: 1rem;
+    margin-left: auto;
+    margin-right:auto;
     height: auto;
     flex-direction: column;
-    float: top left;
-    top: 74px;
-    left: 36px;
+    float: top;
+    top: 24px;
+    @include breakpoint('phablet') {
+      width: fit-content;
+      position: absolute;
+      float: top left;
+      top: 74px;
+      left: 36px;
+    }
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
   }
@@ -48,6 +52,10 @@ Icons
   border-radius: 2rem;
   position: fixed;
   float: top right;
+  display: none;
+  @include breakpoint('tablet') {
+    display: grid;
+  }
   //background-color: rgb(42, 42, 42);
   //background-color: rgb(212, 212, 212);
   background-color: white;
@@ -55,7 +63,7 @@ Icons
   box-shadow: 1px 1px 8px;
   top: 64px;
   right: 32px;
-  z-index: 2;
+  z-index: 3;
   img {
     margin: 8px;
     width: 40px;
@@ -135,7 +143,6 @@ Skills
   justify-content: center;
   .skills-container {
     @extend .grid;
-    grid-template-rows: auto 1fr auto;
     grid-template-columns: repeat(2, 1fr);
     max-width: 400px;
     @include breakpoint('tablet') {
@@ -144,16 +151,17 @@ Skills
     }
     justify-content: center;
     align-content: center;
-    justify-items: center;
-    gap: 16px;
+    padding-bottom: 16px;
+    //gap: 16px;
     margin: auto;
+    .grow {
+      transition: all .2s ease-in-out;
+    }
+    .grow:hover {
+      transform: scale(1.3);
+    }
     img {
-      padding: 8px;
-      background: white;
-      border-radius: 4px;
-      box-shadow: 1px 1px 4px;
-      width: 96px;
-      height: 96px;
+      padding: 16px;
     }
   }
 }
@@ -166,7 +174,7 @@ Projects
     @extend .grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: repeat(1, 1fr);
-    max-width: 360px;
+    max-width: 450px;
     @include breakpoint('tablet') {
       grid-template-columns: repeat(3, 1fr);
       max-width: 1200px;
@@ -181,11 +189,11 @@ Projects
     .project-card {
       box-shadow: 1px 1px 8px;
       border-radius: 8px;
-      height: 632px;
       margin-top: auto;
       margin-bottom: auto;
       .project {
         padding: 8px;
+        height: 632px;
         img {
           max-block-size: inherit;
           max-width: 100%;
@@ -204,25 +212,24 @@ Footer
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       align-items: center;
-      img {
+      .icon {
+        @include breakpoint('mobileonly') {
+          display: none;
+        }
         justify-self: center;
       }
       .socials {
         @extend .grid;
-        justify-self: center;
         grid-template-columns: repeat(2, 1fr);
         border-radius: 2rem;
-        position: fixed;
-        float: top right;
-        //background-color: rgb(42, 42, 42);
-        //background-color: rgb(224, 224, 224);
+        align-self: center;
         box-shadow: 1px 1px 8px;
         background-color: white;
-        top: 92px;
+        position: absolute;
+        float: right;
         right: 32px;
         z-index: 2;
         img {
-          //box-shadow: 1px 1px 4px;
           margin: 8px;
           width: 40px;
           height: 40px;
