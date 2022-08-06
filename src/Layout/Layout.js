@@ -37,7 +37,7 @@ const Layout = (props) => {
     <main>
       <div className='global-container' >
         <Helmet>
-          <title>Portfolio | John Zoscak</title>
+          <title>John Zoscak | Software Engineer</title>
           <meta name="description" content="John Zoscak: Computer science student at UVA" />
         </Helmet>
         <Header />
