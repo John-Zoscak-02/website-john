@@ -56,7 +56,8 @@ Icons
   @include breakpoint('tablet') {
     display: grid;
   }
-  background-color: white;
+  //background-color: white;
+  background-color: black;
   opacity: 100%;
   box-shadow: 1px 1px 8px;
   top: 64px;
@@ -236,13 +237,13 @@ Footer
       border-radius: 2rem;
       align-self: center;
       box-shadow: 1px 1px 8px;
-      background-color: white;
+      //background-color: white;
       position: absolute;
       float: right;
       right: 32px;
       z-index: 2;
       img {
-        margin: 8px;
+        margin: 13px;
         width: 40px;
         height: 40px;
       }
