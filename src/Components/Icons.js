@@ -2,7 +2,8 @@ import * as React from 'react';
 
 import { Fade } from 'react-reveal';
 import { IconButton } from '@mui/material';
-import Github from '../images/icons/github.png';
+//import Github from '../images/icons/github.png';
+import Github from '../images/icons/github-dark.png';
 import Linkedin from '../images/icons/linkedin.png';
 
 const Icons = (props) => {
