@@ -4,7 +4,8 @@ import {Fade} from 'react-reveal';
 
 //import Github from '../images/icons/github.png';
 import Github from '../images/icons/github-dark.png';
-import Linkedin from '../images/icons/linkedin.png';
+//import Linkedin from '../images/icons/linkedin.png';
+import Linkedin from '../images/icons/linkedin-dark.png';
 import JZ from '../images/jz.png';
 
 const Footer = (props) => {
