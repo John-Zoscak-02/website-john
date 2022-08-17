@@ -1,6 +1,6 @@
 import project1 from "../images/projects/project1.png";
 import project2 from "../images/projects/project2.png";
-import project3 from "../images/grad.jpg";
+import project3 from "../images/projects/project3.png";
 import project4 from "../images/projects/project4.png";
 import project5 from "../images/projects/project5.png";
 import project6 from "../images/projects/project6.png";
@@ -36,10 +36,10 @@ export const projectData = [
         description: "I have done several projects on map theory algorithms, and have implemented solutions for Dijkstra's algorithm, Kruskals, Prims, and other significant algorithms in map theory.",
         link: "https://github.com/John-Zoscak-02",
     },
-    //{
-    //    name: "",
-    //    image: project3,
-    //    description: "",
-    //    link: "https://github.com/John-Zoscak-02",
-    //},
+    {
+        name: "Embedded Computing Robot",
+        image: project3,
+        description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include Power Control Modules, SPI, Interupts, and Timers.",
+        link: "https://github.com/John-Zoscak-02/Embedded",
+    },
 ];
