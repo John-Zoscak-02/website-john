@@ -67,6 +67,8 @@ Icons
     margin: 8px;
     width: 40px;
     height: 40px;
+    border-radius: 3px;
+    image-rendering: optimizeQuality;
   }
 }
 
@@ -242,10 +244,13 @@ Footer
       float: right;
       right: 32px;
       z-index: 2;
+      padding: 6px;
       img {
         margin: 13px;
         width: 40px;
         height: 40px;
+        border-radius: 3px;
+        image-rendering: optimizeQuality;
       }
     }
     .contact {
