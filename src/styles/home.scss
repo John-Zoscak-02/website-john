@@ -226,10 +226,16 @@ Footer
     padding: 64px 32px 48px 32px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    @include breakpoint('mobileonly') {
+      grid-template-columns: none;
+      grid-template-rows: repeat(3, 1fr);
+      justify-content: center;
+    }    
     align-items: center;
     .icon {
-      @include breakpoint('mobileonly') {
-        display: none;
+      display: none;
+      @include breakpoint('phablet') {
+        display: block;
       }
       justify-self: center;
     }
@@ -243,6 +249,11 @@ Footer
       position: absolute;
       float: right;
       right: 32px;
+      @include breakpoint('mobileonly') {
+        position: inherit;
+        float: none;
+        margin-top: 32px;
+      }
       z-index: 2;
       //padding: 6px;
       img {
