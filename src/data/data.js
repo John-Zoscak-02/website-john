@@ -39,7 +39,7 @@ export const projectData = [
     {
         name: "Embedded Computing Robot",
         image: project3,
-        description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include Power Control Modules, SPI, Interupts, and Timers.",
+        description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include power control modules, SPI, interrupts, and timers.",
         link: "https://github.com/John-Zoscak-02/Embedded",
     },
 ];
