@@ -2,9 +2,10 @@ import * as React from 'react';
 import { IconButton, Link, Divider } from '@mui/material';
 import {Fade} from 'react-reveal';
 
-import Github from '../images/icons/github.png';
-//import Github from '../images/icons/github-dark.png';
-import Linkedin from '../images/icons/linkedin.png';
+//import Github from '../images/icons/github.png';
+import Github from '../images/icons/github-dark.png';
+//import Linkedin from '../images/icons/linkedin.png';
+import Linkedin from '../images/icons/linkedin-dark.png';
 import JZ from '../images/jz.png';
 
 const Footer = (props) => {
