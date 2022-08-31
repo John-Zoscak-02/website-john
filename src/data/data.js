@@ -4,6 +4,9 @@ import project3 from "../images/projects/project3.png";
 import project4 from "../images/projects/project4.png";
 import project5 from "../images/projects/project5.png";
 import project6 from "../images/projects/project6.png";
+import project7 from "../images/projects/project7.png";
+import project8 from "../images/projects/project8.png";
+import project9 from "../images/projects/project9.png";
 
 export const projectData = [
     {
@@ -41,5 +44,23 @@ export const projectData = [
         image: project3,
         description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include power control modules, SPI, interrupts, and timers.",
         link: "https://github.com/John-Zoscak-02/Embedded",
+    },
+    {
+        name: "Janko Collaborative Whiteboard",
+        image: project7,
+        description: "This project was my group's 2-day HooHacks 2022 Project! Originally inteded to be a collaborative PDF editor for students -- my contributions to the project included using Google's Tesseract OCR library for python. This was to be used to take the overlayed edited canvas on the project and make changes made by the collaborators text-searchable after the PDF has been processed and exported.",
+        link: "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor",
+    }, 
+    {
+        name: "Matlab projects",
+        image: project8,
+        description: "Utilizing numerous MATLAB features and functions to satisfy data visualization and analysis requirements for an introduction to engineering class.",
+        link: "",
+    },
+    {
+        name: "Fourier Series",
+        image: project9,
+        description: "Working with two friends in a git repository to create a program in Python for visualizing a calculated Fourier series transform from an svg file. This involved significant studying of the relevant mathematics, as well as investigation in how to implement imaginary functions in python using scipy.",
+        link: "https://github.com/John-Zoscak-02/Python-Fourier",
     },
 ];
