@@ -18,7 +18,7 @@ export const projectData = [
     {
         name: "Terrain Generation",
         image: project2,
-        description: "For my first poject in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation.",
+        description: "For my first project in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation.",
         link: "https://github.com/John-Zoscak-02/terrain-generation",
     }, 
     {
@@ -55,7 +55,7 @@ export const projectData = [
         name: "Matlab projects",
         image: project8,
         description: "Utilizing numerous MATLAB features and functions to satisfy data visualization and analysis requirements for an introduction to engineering class.",
-        link: "",
+        link: "/",
     },
     {
         name: "Fourier Series",
