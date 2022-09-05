@@ -13,7 +13,7 @@ const Projects = (props) => {
     <div className='projects' >
       <Fade big>
         <Divider variant="middle" classes={{ root: props.classes.divider }} />
-        <Typography variant='h3'>Recent Projects</Typography>
+        <Typography variant='h3'>Programming Projects</Typography>
       </Fade>
       <div className='projects-container'>
         {projectData.map((data, key) => {
