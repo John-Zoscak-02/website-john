@@ -26,7 +26,13 @@ export const projectData = [
         image: project4,
         description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the telemetry system, and an evasive movement function.",
         link: "https://github.com/iliterobotics/FRC-Robot-2020/",
-    }, 
+    },
+    {
+        name: "CS 3240 Class Project",
+        image: project8,
+        description: "Designing and implementing a class scheduling application using Django's web framework. Working with a team of 5 people, we were able to create a course catalog viewer, friends interaction features, and a dynamically rendered 7-day timetable.",
+        link: "https://github.com/John-Zoscak-02/project-a-28-copy",
+    },
     {
         name: "Glimmr website",
         image: project5,
@@ -51,12 +57,6 @@ export const projectData = [
         description: "This project was my group's 2-day HooHacks 2022 Project! Originally inteded to be a collaborative PDF editor for students -- my contributions to the project included using Google's Tesseract OCR library for python. This was to be used to take the overlayed edited canvas on the project and make changes made by the collaborators text-searchable after the PDF has been processed and exported.",
         link: "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor",
     }, 
-    {
-        name: "Matlab projects",
-        image: project8,
-        description: "Utilizing numerous MATLAB features and functions to satisfy data visualization and analysis requirements for an introduction to engineering class.",
-        link: "/",
-    },
     {
         name: "Fourier Series",
         image: project9,
