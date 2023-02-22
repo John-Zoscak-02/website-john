@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/website-john/static/css/main.184adfe6.css",
-    "main.js": "/website-john/static/js/main.c89b1e0c.js",
+    "main.js": "/website-john/static/js/main.79a52402.js",
     "static/media/project3.png": "/website-john/static/media/project3.ffe287c6a51b7a1b2f56.png",
+    "static/media/space-horizontal.gif": "/website-john/static/media/space-horizontal.d4e3b8879efcbc9bc09c.gif",
     "static/media/grad.jpg": "/website-john/static/media/grad.8401b38c49d6eae0a6b7.jpg",
     "static/media/project1.png": "/website-john/static/media/project1.33fa7796555e67062029.png",
     "static/media/project7.png": "/website-john/static/media/project7.177b1a02195d33651f63.png",
@@ -16,10 +17,10 @@
     "static/media/jz.png": "/website-john/static/media/jz.6316b3c38f0936a21bc9.png",
     "index.html": "/website-john/index.html",
     "main.184adfe6.css.map": "/website-john/static/css/main.184adfe6.css.map",
-    "main.c89b1e0c.js.map": "/website-john/static/js/main.c89b1e0c.js.map"
+    "main.79a52402.js.map": "/website-john/static/js/main.79a52402.js.map"
   },
   "entrypoints": [
     "static/css/main.184adfe6.css",
-    "static/js/main.c89b1e0c.js"
+    "static/js/main.79a52402.js"
   ]
 }
