@@ -29,7 +29,7 @@ const Landing = (props) => {
       </div>
       <div className='grid-h'>
         <Fade big>
-          <Box component="img" src={JHUAPL} alt='loading...' />
+          <img className='resize' src={JHUAPL} alt='loading...' />
         </Fade>
       </div>
     </div>
