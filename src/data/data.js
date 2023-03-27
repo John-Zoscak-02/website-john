@@ -36,7 +36,7 @@ export const projectData = [
     {
         name: "Guideroom: Hoohacks 2023",
         image: project5,
-        description: "Guideroom is a 3d model processing software that uses LIDAR captures to analyze indoor spaces made by me and two others. Our goal was to help make assessments as to how safely navigable spaces are. Some primary features include 3d-point cloud segmentation, surface identification, stair identification, and web-app / backend framework.",
+        description: "Guideroom is a 3d model processing software that uses LIDAR captures to analyze indoor spaces made by me and two others. Our goal was to help make assessments as to how safely navigable spaces are. Some features include surface identification using point-cloud segmentation, stair identification, floor-space measurements and a web-app.",
         link: "https://devpost.com/software/guideroom?ref_content=user-portfolio&ref_feature=in_progress",
     },
     {
