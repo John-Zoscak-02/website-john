@@ -34,33 +34,33 @@ export const projectData = [
         link: "https://github.com/John-Zoscak-02/project-a-28-copy",
     },
     {
-        name: "Glimmr website",
+        name: "Guideroom: Hoohacks 2023",
         image: project5,
+        description: "Guideroom is a 3d model processing software that uses LIDAR captures to analyze indoor spaces made by me and two others. Our goal was to help make assessments as to how safely navigable spaces are. Some primary features include 3d-point cloud segmentation, surface identification, stair identification, and web-app / backend framework.",
+        link: "https://devpost.com/software/guideroom?ref_content=user-portfolio&ref_feature=in_progress",
+    },
+    {
+        name: "Glimmr website",
+        image: project6,
         description: "Working with a team of 6 programmers to implement several frontend features of Glimmr's website using React JS. Worked briefly on writing tests in typescript for Glimmr's app, and wrote a custom messaging UI from scratch. This work was my first exposure to frontend development.",
         link: "https://github.com/glimmr-app/",
     },
     {
         name: "Robotics with ROS Simulation",
-        image: project6,
+        image: project7,
         description: "As part of my CS4501 class, we were using ROS with python2 to write code for a quadcopter. We practiced and implemented many solutions to various roboitics problems. These included: path planning, image recoginition with convolution neural networks, control systems, sensor noise cleaning, and node coupling / dependency via ROS topics and messages. ",
         link: "https://github.com/John-Zoscak-02",
     },
     {
         name: "Embedded Computing Robot",
-        image: project7,
+        image: project8,
         description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include power control modules, SPI, interrupts, and timers.",
         link: "https://github.com/John-Zoscak-02/Embedded",
     },
     {
         name: "Janko Collaborative Whiteboard",
-        image: project8,
+        image: project9,
         description: "This project was my group's 2-day HooHacks 2022 Project! Originally inteded to be a collaborative PDF editor for students -- my contributions to the project included using Google's Tesseract OCR library for python. This was to be used to take the overlayed edited canvas on the project and make changes made by the collaborators text-searchable after the PDF has been processed and exported.",
         link: "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor",
     }, 
-    {
-        name: "Fourier Series",
-        image: project9,
-        description: "Working with two friends in a git repository to create a program in Python for visualizing a calculated Fourier series transform from an svg file. This involved significant studying of the relevant mathematics, as well as investigation in how to implement imaginary functions in python using scipy.",
-        link: "https://github.com/John-Zoscak-02/Python-Fourier",
-    },
 ];
