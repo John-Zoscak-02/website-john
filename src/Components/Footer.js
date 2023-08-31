@@ -10,7 +10,7 @@ import JZ from '../images/jz.png';
 const Footer = (props) => {
   return (
     <div className='footer'>
-      <Fade bottom>
+      {/*<Fade bottom>*/}
         <Divider variant="middle" classes={{ root: props.classes.divider }} />
         <div className='footer-content'>
           <div className='contact'>
@@ -27,7 +27,7 @@ const Footer = (props) => {
             }}><img classname='sc_lnk' src={Linkedin} alt='in' /></IconButton>
           </div>
         </div>
-      </Fade>
+      {/*</Fade>*/}
     </div>
   );
 }
