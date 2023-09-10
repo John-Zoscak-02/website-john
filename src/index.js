@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import '../src/styles/home.scss';
-import { createTheme, rgbToHex, ThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import Layout from './Layout/Layout.js';
 import CssBaseline from '@mui/material/CssBaseline';

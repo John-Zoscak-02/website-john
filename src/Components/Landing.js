@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import { Typography, Divider, Box } from '@mui/material';
+import { Typography, Divider } from '@mui/material';
 import { Fade } from 'react-reveal';
 
 import Graduation from '../images/grad.jpg';
-import JHUAPL from '../images/space-horizontal.gif';
+//import JHUAPL from '../images/space-horizontal.gif';
 
 const Landing = (props) => {
   return (
@@ -27,11 +27,11 @@ const Landing = (props) => {
           </Fade>          
         </div>
       </div>
-      <div className='grid-h'>
+      {/*<div className='grid-h'>
         <Fade big>
           <img className='resize' src={JHUAPL} alt='loading...' />
         </Fade>
-      </div>
+      </div>*/}
     </div>
   );
 }
