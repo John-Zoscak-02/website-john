@@ -15,20 +15,8 @@ export const projectData = [
     {
         name: "Portfolio Website",
         image: project1,
-        description: "This porfolio website was implemented using React JS, HTML, SCSS and Material UI. The structures and layouts that contain the components of the website were designed and implemented by myself using SCSS and HTML. ",
+        description: "This porfolio website was implemented using React JS, HTML, SCSS and Material UI. The structures and layouts that contain the components of the website were designed and implemented by myself",
         link: "https://github.com/John-Zoscak-02/website-john",
-    },
-    {
-        name: "Terrain Generation",
-        image: project2,
-        description: "For my first project in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation.",
-        link: "https://github.com/John-Zoscak-02/terrain-generation",
-    }, 
-    {
-        name: "ILITE 2020 robot",
-        image: project3,
-        description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the telemetry system, and an evasive movement function.",
-        link: "https://github.com/iliterobotics/FRC-Robot-2020/",
     },
     {
         name: "F1Tenth Robot",
@@ -37,12 +25,23 @@ export const projectData = [
         link: "https://github.com/John-Zoscak-02/f1tenth-robot",
     }, 
     {
+        name: "ILITE 2020 robot",
+        image: project3,
+        description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the telemetry system, and an evasive movement function.",
+        link: "https://github.com/iliterobotics/FRC-Robot-2020/",
+    },
+    {
+        name: "Terrain Generation",
+        image: project2,
+        description: "For my first project in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation.",
+        link: "https://github.com/John-Zoscak-02/terrain-generation",
+    }, 
+    {
         name: "Geometry Image 3D Model Parameterization",
         image: project11,
         description: "For my graduate level geometry of data class, me and a partner decided to implment 3d model cutting and parameterization into geometry images. Our work was intended to test the efficiency and practicality of 3D model compression as well as alternative 3d geometry dimensionality reductions methods.",
         link: "https://github.com/John-Zoscak-02/geometry-images",
     }, 
-
     {
         name: "CS 3240 Class Project",
         image: project4,
@@ -82,7 +81,7 @@ export const projectData = [
     {
         name: "Fourier Series",
         image: project12,
-        description: "Working with two friends in a git repository to create a program in Python for visualizing a calculated Fourier series transform from an svg file. This involved significant studying of the relevant mathematics, as well as investigation in how to implement imaginary functions in python using scipy.",
+        description: "Working with two friends in a git repository to create a program in Python for visualizing a calculated Fourier series transform from an svg file. This involved significant studying of the relevant mathematics, as well as investigation towards sound mathematical implements using tools like scipy and imaginary numbers",
         link: "https://github.com/John-Zoscak-02/Python-Fourier",
     },
 ];
