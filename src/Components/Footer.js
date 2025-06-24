@@ -1,16 +1,23 @@
 import * as React from 'react';
 import { IconButton, Link, Divider } from '@mui/material';
 
-import Github from '../images/icons/github.png';
-//import Github from '../images/icons/github-dark.png';
-import Linkedin from '../images/icons/linkedin.png';
+// import Github from '../images/icons/github.png';
+import Github from '../images/icons/github-dark.png';
+// import Linkedin from '../images/icons/linkedin.png';
+import Linkedin from '../images/icons/linkedin-dark.png';
 import JZ from '../images/jz.png';
+import FloralCorner from '../svgs/floral-corner.svg';
+import FloralCenter from '../svgs/floral-center.svg';
 
 const Footer = (props) => {
   return (
     <div className='footer'>
       {/*<Fade bottom>*/}
-        <Divider variant="middle" classes={{ root: props.classes.divider }} />
+        {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
+        <div className="decoration">
+          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
+          <img className="top-center" src={FloralCenter} alt="floral center"></img>
+        </div>
         <div className='footer-content'>
           <div className='contact'>
             <Link className='grow' underline='none' color='inherit'>{'(703) 935-6163'}</Link>

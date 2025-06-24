@@ -7,16 +7,17 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   font-family: 'Arial', Fallback, sans-serif;
+  font-weight: bolder;
   //text-align: center;
 }
 
 ::selection {
-  background: #646464;
+  background: #aaaaaa;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #646464;
+  background: #aaaaaa;
   /* Gecko Browsers */
 }
 
@@ -79,7 +80,7 @@ Grid
 
 .grid-2-h {
   @extend .grid-h;
-  max-width: 800px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   @include breakpoint(phablet) {
@@ -116,4 +117,37 @@ h3 {
 p {
   font-size: 16px;
   text-align: left;
+}
+
+/*********************************
+decoration / divider
+*********************************/
+.decoration {
+  position: relative;
+  background-repeat: no-repeat;
+  padding: 32px;
+}
+
+.upper-left {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  width: 50px;
+  height: 50px;
+  transform: scale(-2.5, 2.5); // rotate(-60deg);
+  filter: opacity(0.85);
+  // border: 1px solid red;
+  object-fit: fill;
+}
+
+.top-center {
+  position: absolute;
+  top: -16px; /* Adjust to move above section */
+  left: 50%;
+  transform: translateX(-50%) scale(2, 2); /* Center horizontally */
+  width: 200px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  filter: opacity(0.85);
+  // border: 1px solid red;
+  object-fit: fill;
 }

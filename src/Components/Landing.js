@@ -3,27 +3,34 @@ import * as React from 'react';
 import { Typography, Divider } from '@mui/material';
 import { Fade } from 'react-reveal';
 
-import Graduation from '../images/profile.jpg';
+// import Graduation from '../images/profile.jpg';
 //import JHUAPL from '../images/space-horizontal.gif';
+import Selfie from '../images/hakone-selfie.jpg';
+import FloralCorner from '../svgs/floral-corner.svg';
+import FloralCenter from '../svgs/floral-center.svg';
 
 const Landing = (props) => {
   return (
     <div className='landing'>
       <Fade big>
-        <Divider variant="middle" classes={{ root: props.classes.divider }} />
+        {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
+        <div className="decoration">
+          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
+          <img className="top-center" src={FloralCenter} alt="floral center"></img>
+        </div>
       </Fade >
       <div className='grid-2-h'>
         <div className='about-me'>
           <Fade left>
             <Typography variant='h3'>About me</Typography>
-            <Typography variant='subtitle1'>Student at the School of Engineering and Applied Science at UVA. Prospected Bachelor's degree, majoring in Computer Science and minoring in Business Engineering.</Typography>
-            <Typography variant='subtitle1'>Graduate from Battlefield High School focusing on Computer Science.</Typography>
+            <Typography variant='subtitle1'>Student at the School of Engineering and Applied Science at UVA. Graduate Master's in Computer Science and minor in Business Engineering.</Typography>
+            <Typography variant='subtitle1'>Previous employee with Johns Hopkins University Applied Physics Laboratory.</Typography> 
             <Typography variant='subtitle1'>Aspiring Software Developer.</Typography>
           </Fade>
         </div>
         <div className='landing-image-container'>
           <Fade right>
-            <img className='landing-image' src={Graduation} alt='High School Graduation' />
+            <img className='landing-image' src={Selfie} alt='High School Graduation' />
           </Fade>          
         </div>
       </div>

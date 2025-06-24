@@ -16,11 +16,18 @@ import go from '../images/skills/go.png';
 import sass from '../images/skills/sass.png';
 import c from '../images/skills/c.png';
 
+import FloralCorner from '../svgs/floral-corner.svg';
+import FloralCenter from '../svgs/floral-center.svg';
+
 const Skills = (props) => {
   return (
     <div className='skills'>
       <Fade big>
-        <Divider variant="middle" classes={{ root: props.classes.divider }} />
+        {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
+        <div className="decoration">
+          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
+          <img className="top-center" src={FloralCenter} alt="floral center"></img>
+        </div>
         <Typography variant='h3'>My Skills</Typography>
       </Fade>
       <Fade> 

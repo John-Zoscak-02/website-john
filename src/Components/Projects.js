@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Card, CardMedia, CardContent, CardActionArea, CardHeader, Typography, Divider } from '@mui/material';
 import {Fade} from 'react-reveal';
 import { projectData } from '../data/data';
+import FloralCorner from '../svgs/floral-corner.svg';
+import FloralCenter from '../svgs/floral-center.svg';
 
 const Projects = (props) => {
   const handleCardClick = (url) => {
@@ -12,7 +14,11 @@ const Projects = (props) => {
   return (
     <div className='projects' >
       <Fade big>
-        <Divider variant="middle" classes={{ root: props.classes.divider }} />
+        <div className="decoration">
+          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
+          <img className="top-center" src={FloralCenter} alt="floral center"></img>
+        </div>
+        {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
         <Typography variant='h3'>Programming Projects</Typography>
       </Fade>
       <div className='projects-container'>
