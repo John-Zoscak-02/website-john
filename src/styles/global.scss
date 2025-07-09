@@ -122,6 +122,36 @@ p {
 /*********************************
 decoration / divider
 *********************************/
+
+.divider {
+  width: 100%;
+  align-content: baseline;
+}
+
+.divider, .divider:before {
+  float: left;
+}
+
+.divider, .divider:after {
+  float: right; 
+}
+
+.divider:before, .divider:after {
+  content: '';
+  width: 40%;
+  top: 50%;
+  bottom: 50%;
+  height: 2px;
+}
+.divider:before {
+  margin-left: 5%;
+  background-color: #000000;
+}
+.divider:after {
+  margin-right: 5%;
+  background-color: #000000
+}
+
 .decoration {
   position: relative;
   background-repeat: no-repeat;
@@ -141,13 +171,10 @@ decoration / divider
 }
 
 .top-center {
-  position: absolute;
-  top: -16px; /* Adjust to move above section */
-  left: 50%;
-  transform: translateX(-50%) scale(2, 2); /* Center horizontally */
+  display: block;
+  padding: 0px 0px;
+  transform: scale(3, 3); /* Center horizontally */
+  align-self: center;
   width: 200px; /* Adjust size as needed */
   height: 50px; /* Adjust size as needed */
-  filter: opacity(0.85);
-  // border: 1px solid red;
-  object-fit: fill;
 }

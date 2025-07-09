@@ -8,24 +8,28 @@ import { Fade } from 'react-reveal';
 import Selfie from '../images/hakone-selfie.jpg';
 import FloralCorner from '../svgs/floral-corner.svg';
 import FloralCenter from '../svgs/floral-center.svg';
+import Center from '../svgs/center.svg';
 
 const Landing = (props) => {
   return (
     <div className='landing'>
       <Fade big>
         {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
-        <div className="decoration">
-          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
+        {/* <div className="decoration">
           <img className="top-center" src={FloralCenter} alt="floral center"></img>
-        </div>
+        </div> */}
       </Fade >
+      <div class="divider">
+        <img className="top-center" src={Center} alt="floral center"></img>
+      </div>
       <div className='grid-2-h'>
         <div className='about-me'>
           <Fade left>
             <Typography variant='h3'>About me</Typography>
-            <Typography variant='subtitle1'>Student at the School of Engineering and Applied Science at UVA. Graduate Master's in Computer Science and minor in Business Engineering.</Typography>
-            <Typography variant='subtitle1'>Previous employee with Johns Hopkins University Applied Physics Laboratory.</Typography> 
-            <Typography variant='subtitle1'>Aspiring Software Developer.</Typography>
+            <Typography variant='subtitle1'>Graduate from the School of Engineering and Applied Science at UVA with degree in Computer Science and Minor in Business Engineering. Master's in Computer Science</Typography>
+            <Typography variant='subtitle1'>Previous employee with Johns Hopkins University Applied Physics Laboratory, and Altamira Technologies Corporation</Typography> 
+            <Typography variant='subtitle1'>Previous developer with Cavalier Autonomous Racing</Typography>
+            <Typography variant='subtitle1'>Aspiring Software Developer</Typography>
           </Fade>
         </div>
         <div className='landing-image-container'>
