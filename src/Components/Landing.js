@@ -19,8 +19,10 @@ const Landing = (props) => {
           <img className="top-center" src={FloralCenter} alt="floral center"></img>
         </div> */}
       </Fade >
-      <div class="divider">
-        <img className="top-center" src={Center} alt="floral center"></img>
+      <div class="divider-grid">
+          <div class="divider left"></div>
+          <img className="top-center center" src={Center} alt="floral center"></img>
+          <div class="divider right"></div>
       </div>
       <div className='grid-2-h'>
         <div className='about-me'>
