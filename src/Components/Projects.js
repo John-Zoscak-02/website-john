@@ -1,9 +1,8 @@
 import * as React from 'react';
-import { Card, CardMedia, CardContent, CardActionArea, CardHeader, Typography, Divider } from '@mui/material';
+import { Card, CardMedia, CardContent, CardActionArea, CardHeader, Typography } from '@mui/material';
 import {Fade} from 'react-reveal';
 import { projectData } from '../data/data';
-import FloralCorner from '../svgs/floral-corner.svg';
-import FloralCenter from '../svgs/floral-center.svg';
+import Center from '../svgs/center.svg';
 
 const Projects = (props) => {
   const handleCardClick = (url) => {
@@ -13,14 +12,12 @@ const Projects = (props) => {
 
   return (
     <div className='projects' >
-      <Fade big>
-        <div className="decoration">
-          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
-          <img className="top-center" src={FloralCenter} alt="floral center"></img>
-        </div>
-        {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
-        <Typography variant='h3'>Programming Projects</Typography>
-      </Fade>
+      <div class="divider-grid">
+          <div class="divider left"></div>
+          <img className="top-center center" src={Center} alt="floral center"></img>
+          <div class="divider right"></div>
+      </div>
+      <Typography variant='h3'>Programming Projects</Typography>
       <div className='projects-container'>
         {projectData.map((data, key) => {
           return (

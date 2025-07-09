@@ -1,3 +1,12 @@
+
+import project13 from "../images/projects/project13.png";
+import project14 from "../images/projects/project14.png";
+import project15 from "../images/projects/project15.png";
+import project16 from "../images/projects/project16.png";
+import project17 from "../images/projects/project17.png";
+import project18 from "../images/projects/project18.png";
+import project19 from "../images/projects/project19.png";
+import project20 from "../images/projects/project20.png";
 import project1 from "../images/projects/project1.png";
 import project2 from "../images/projects/project2.png";
 import project3 from "../images/projects/project3.png";
@@ -12,6 +21,54 @@ import project11 from "../images/projects/project11.png";
 import project12 from "../images/projects/project12.png";
 
 export const projectData = [
+    {
+        name: "Cavalier Autonomous Racing",
+        image: project13,
+        description: "Using C++ to write common robotics, data processing and synthesizing libraries. Used physics and dynamic models to better calculate future states of a racing vehicle. And developed at Indianapolis Speedway and Las Vegas Speedway.",
+        link: "/",
+    },
+    {
+        name: "Advanced Embedded Project",
+        image: project14,
+        description: "Our project leverages a real-time operating system (RTOS) to manage multiple threads responsible for joystick input, crosshair display, Cube (Tie fighter) generation, scoring, sound effects, and deadlock prevention. Tie fighters move across the screen and must be eliminated by positioning the crosshair, controlled by the joystick. It uses semaphores for resource control, PWM for sound synthesis, and ADC for generating random seeds.",
+        link: "/",
+    },
+    {
+        name: "Guided-Cost Learning",
+        image: project15,
+        description: "Designed an AI model to learn the behavior of boundedly rational stochastic agents interacting in a dynamic game. The model learns a control, cost, and dynamics function for multi-robot systems operating in a simulated game.",
+        link: "/",
+    },
+    {
+        name: "Dotfiles and WM Software",
+        image: project16,
+        description: "My personal stack for the AwesomeWM window manager. It s a simple and lightweight rice of the AwesomeWM window manager. Utilizing LUA, community-designed widgets and tools - It includes the full functionality of the awesome window manager, has a simple yet fully functional topbar for important computer statistics, and works with multiple displays and changing desktop / laptop configurations.", 
+        link: "/",
+    },
+    {
+        name: "Learning in Robotics",
+        image: project17,
+        description: "",
+        link: "/",
+    },
+    {
+        name: "Benchmarking and Surveying: CRYSTALS-kyber",
+        image: project18,
+        description: "Testing, benchmarking, and assessing the feasibility of CRYSTALS-kyber as a post-quantum cryptography algorithm for the future of network security",
+        link: "/",
+    },
+    {
+        name: "Natural Langauge Processing Poisoning Llama2",
+        image: project19,
+        description: "",
+        link: "/",
+    },
+    {
+        name: "Computer Vision - Real time Surface Reconstruction",
+        image: project20,
+        description: "",
+        link: "/",
+    },
     {
         name: "Portfolio Website",
         image: project1,
@@ -72,16 +129,16 @@ export const projectData = [
         description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include power control modules, SPI, interrupts, and timers.",
         link: "https://github.com/John-Zoscak-02/Embedded",
     },
-    {
-        name: "Janko Collaborative Whiteboard",
-        image: project9,
-        description: "This project was my group's 2-day HooHacks 2022 Project! Originally inteded to be a collaborative PDF editor for students -- my contributions to the project included using Google's Tesseract OCR library for python. This was to be used to take the overlayed edited canvas on the project and make changes made by the collaborators text-searchable after the PDF has been processed and exported.",
-        link: "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor",
-    }, 
-    {
-        name: "Fourier Series",
-        image: project12,
-        description: "Working with two friends in a git repository to create a program in Python for visualizing a calculated Fourier series transform from an svg file. This involved significant studying of the relevant mathematics, as well as investigation towards sound mathematical implements using tools like scipy and imaginary numbers",
-        link: "https://github.com/John-Zoscak-02/Python-Fourier",
-    },
+    // {
+    //     name: "Janko Collaborative Whiteboard",
+    //     image: project9,
+    //     description: "This project was my group's 2-day HooHacks 2022 Project! Originally inteded to be a collaborative PDF editor for students -- my contributions to the project included using Google's Tesseract OCR library for python. This was to be used to take the overlayed edited canvas on the project and make changes made by the collaborators text-searchable after the PDF has been processed and exported.",
+    //     link: "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor",
+    // }, 
+    // {
+    //     name: "Fourier Series",
+    //     image: project12,
+    //     description: "Working with two friends in a git repository to create a program in Python for visualizing a calculated Fourier series transform from an svg file. This involved significant studying of the relevant mathematics, as well as investigation towards sound mathematical implements using tools like scipy and imaginary numbers",
+    //     link: "https://github.com/John-Zoscak-02/Python-Fourier",
+    // },
 ];

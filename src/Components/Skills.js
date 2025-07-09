@@ -16,36 +16,33 @@ import go from '../images/skills/go.png';
 import sass from '../images/skills/sass.png';
 import c from '../images/skills/c.png';
 
-import FloralCorner from '../svgs/floral-corner.svg';
-import FloralCenter from '../svgs/floral-center.svg';
+import Center from '../svgs/center.svg';
 
 const Skills = (props) => {
   return (
     <div className='skills'>
-      <Fade big>
-        {/* <Divider variant="middle" classes={{ root: props.classes.divider }} /> */}
-        <div className="decoration">
-          {/* <img className="upper-left" src={FloralCorner} alt="floral corner"></img> */}
-          <img className="top-center" src={FloralCenter} alt="floral center"></img>
-        </div>
+      <div class="divider-grid">
+          <div class="divider left"></div>
+          <img className="top-center center" src={Center} alt="floral center"></img>
+          <div class="divider right"></div>
+      </div>
+      <div className='grid-h'>
         <Typography variant='h3'>My Skills</Typography>
-      </Fade>
-      <Fade> 
-        <div className='skills-container'>
-          <img className='grow' src={java} alt='java' />
-          <img className='grow' src={git} alt='git' />
-          <img className='grow' src={react} alt='react' />
-          <img className='grow' src={html} alt='html 5' />
-          <img className='grow' src={css} alt='css' />
-          <img className='grow' src={js} alt='js' />
-          <img className='grow' src={cpp} alt='cpp' />
-          <img className='grow' src={python} alt='python' />
-          <img className='grow' src={ubuntu} alt='ubuntu' />
-          <img className='grow' src={go} alt='golang' />
-          <img className='grow' src={sass} alt='sass' />
-          <img className='grow' src={c} alt='c' />
-        </div>
-      </Fade>
+          <div className='skills-container'>
+            <img className='grow' src={java} alt='java' />
+            <img className='grow' src={git} alt='git' />
+            <img className='grow' src={react} alt='react' />
+            <img className='grow' src={html} alt='html 5' />
+            <img className='grow' src={css} alt='css' />
+            <img className='grow' src={js} alt='js' />
+            <img className='grow' src={cpp} alt='cpp' />
+            <img className='grow' src={python} alt='python' />
+            <img className='grow' src={ubuntu} alt='ubuntu' />
+            <img className='grow' src={go} alt='golang' />
+            <img className='grow' src={sass} alt='sass' />
+            <img className='grow' src={c} alt='c' />
+          </div>
+      </div>
     </div>
   );
 }
