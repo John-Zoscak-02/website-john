@@ -26,7 +26,7 @@ import Center from '../svgs/center.svg';
 
 const Skills = (props) => {
   return (
-    <div className='skills'>
+    <div className='skills' ref={props.compRef}>
       <div class="divider-grid">
           <div class="divider left"></div>
           <img className="top-center center" src={Center} alt="floral center"></img>

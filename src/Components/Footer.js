@@ -22,7 +22,7 @@ const Footer = (props) => {
           <Link className='grow' underline='hover' color='inherit' href='mailto:jzoscak@email.virginia.edu, jzoscak02@gmail.com'>{'jzoscak@email.virginia.com'}</Link>
         </div>
         <img className='icon grow' src={JZ} alt='jz icon'/>
-        <div className='socials'>
+        <div className='socials' ref={props.compRef}>
           <IconButton size='small' onClick={() => {
             window.open('https://github.com/John-Zoscak-02/', "_blank")
           }}><img classname='sc_lnk' src={Github} alt='GH' /></IconButton>

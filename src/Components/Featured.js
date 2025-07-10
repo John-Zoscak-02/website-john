@@ -6,7 +6,7 @@ import Center from '../svgs/center.svg';
 const Featured = (props) => {
 
   return (
-    <div className='featured'>
+    <div className='featured' ref={props.compRef}>
       <div class="divider-grid">
           <div class="divider left"></div>
           <img className="top-center center" src={Center} alt="floral center"></img>

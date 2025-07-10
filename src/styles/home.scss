@@ -30,19 +30,98 @@ Header
     margin: auto;
     height: auto;
     flex-direction: column;
-    float: top;
+    position: absolute;
+    float: top left;
     top: 24px;
+    left: 24px;
     font-weight: bolder;
     background: rgba(255, 255, 255, 0.3);
+    h1 {
+     font-size: 72px;
+    }
     @include breakpoint('phablet') {
+      h1 {font-size: 84px;}
       width: fit-content;
-      position: absolute;
       float: top left;
       top: 74px;
       left: 36px;
     }
     backdrop-filter: blur(8px) brightness(2) saturate(0.5);
     -webkit-backdrop-filter: blur(8px) brightness(2) saturate(0.5);
+  }
+}
+
+
+/* =========================================================
+Topbar
+========================================================= */
+.topbar {
+  display: none;
+  position: fixed;
+  top: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out; /* Smooth slide effect */
+  transform: translateY(0); /* Visible by default */
+  @include breakpoint('tablet') {
+    display: block; /* Show on tablet and larger */
+  }
+
+  &.hidden {
+    transform: translateY(-200%); /* Slide up to hide */
+  }
+
+  &.visible {
+    transform: translateY(0); /* Slide down to show */
+  }
+
+  .topbar-container {
+    top: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 32px 0px 32px;
+    padding: 0px 16px;
+    height: 48px; /* Compact height */
+    border-radius: 8px;
+    background-color: #FFFFFFff;
+    box-shadow: 0px 0px 8px rgba(1, 1, 1, 1);
+
+    .icon {
+      float: left;
+      width: 24px;
+      height: 24px;
+      border-radius: 1.5px;
+    }
+    
+    .center {
+      display: flex;
+      flex-direction: row;
+      height: inherit;
+      background-image: $gradient-central;
+      flex-grow: 1;
+    }
+
+    .buttons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: inherit;
+      gap: 8px;
+      .button {
+        height: inherit;
+        height: 75%;
+        color: #444444FF;
+        img{
+          max-height: 16px;
+          max-width: 16px;
+          margin-right: 6px;
+        }
+      }
+    }
   }
 }
 
@@ -63,7 +142,7 @@ Icons
   // background-color: black;
   opacity: 100%;
   box-shadow: 1px 1px 8px;
-  top: 64px;
+  top: 96px;
   // right: 32px;
   right: 32px;
   z-index: 3;
