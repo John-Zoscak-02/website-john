@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-john/static/css/main.e955ed8f.css",
-    "main.js": "/website-john/static/js/main.6976a74e.js",
+    "main.css": "/website-john/static/css/main.38c02fc4.css",
+    "main.js": "/website-john/static/js/main.69285a38.js",
     "static/media/project13.png": "/website-john/static/media/project13.6a3036b4875522bcc29e.png",
     "static/media/project3.png": "/website-john/static/media/project3.ffe287c6a51b7a1b2f56.png",
     "static/media/project20.png": "/website-john/static/media/project20.4cf17c48c76efeea9c4b.png",
@@ -26,6 +26,7 @@
     "static/media/project15.png": "/website-john/static/media/project15.523ad00df8cc4ea99053.png",
     "static/media/project12.png": "/website-john/static/media/project12.dc428f13082ad8099bf6.png",
     "static/media/jz.png": "/website-john/static/media/jz.69073347235e3601cace.png",
+    "static/media/jz-sharp.png": "/website-john/static/media/jz-sharp.d17906d479f92d82a6e0.png",
     "static/media/cavauto.jpg": "/website-john/static/media/cavauto.fce391c5212e0a6318d7.jpg",
     "static/media/vim.svg": "/website-john/static/media/vim.2b13b18bb20d6409ce940bfa4a316012.svg",
     "static/media/indycar.svg": "/website-john/static/media/indycar.a95d4eadeaeff8adcff97ae0cb46000d.svg",
@@ -42,20 +43,25 @@
     "static/media/ros.svg": "/website-john/static/media/ros.9287e3db18e00ce3d2fccc4d4c5d4da6.svg",
     "static/media/c.svg": "/website-john/static/media/c.21a8fab81e76bf019238a55c1c88198c.svg",
     "static/media/apl-shield.svg": "/website-john/static/media/apl-shield.41eb3400c19785162802ef16e5d4b751.svg",
+    "static/media/resume.svg": "/website-john/static/media/resume.9a1e53e6041257dc22ba7a75d91dfe22.svg",
     "static/media/overleaf.svg": "/website-john/static/media/overleaf.fe25a3c1199f565a2de9016d393b6a1c.svg",
     "static/media/gitlab.svg": "/website-john/static/media/gitlab.5a1c3c29a62a60d48bf876a38ee27c7b.svg",
     "static/media/java.svg": "/website-john/static/media/java.0912963d8a8f766502ddb26d9cf1a5b1.svg",
     "static/media/git.svg": "/website-john/static/media/git.98b115687dfc759d25ae8a1d8f7d7d32.svg",
+    "static/media/about-me.svg": "/website-john/static/media/about-me.66ec6c3348e249d8e53e2bd84cf9e68b.svg",
     "index.html": "/website-john/index.html",
+    "static/media/code.svg": "/website-john/static/media/code.209be62bf5ebd82f31ceb1d62a831b71.svg",
     "static/media/altamira-a.svg": "/website-john/static/media/altamira-a.285357ec46c65422ddcb1197acbb57b2.svg",
     "static/media/css3.svg": "/website-john/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html5.svg": "/website-john/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "static/media/projects.svg": "/website-john/static/media/projects.a9f010bff1257669e27a827f354c6dcb.svg",
+    "static/media/contact.svg": "/website-john/static/media/contact.7a19469645cfc3b8dfaec79fc790e70d.svg",
     "static/media/cmake.svg": "/website-john/static/media/cmake.401f4f5f8e1d4aad874750e5123b36d4.svg",
-    "main.e955ed8f.css.map": "/website-john/static/css/main.e955ed8f.css.map",
-    "main.6976a74e.js.map": "/website-john/static/js/main.6976a74e.js.map"
+    "main.38c02fc4.css.map": "/website-john/static/css/main.38c02fc4.css.map",
+    "main.69285a38.js.map": "/website-john/static/js/main.69285a38.js.map"
   },
   "entrypoints": [
-    "static/css/main.e955ed8f.css",
-    "static/js/main.6976a74e.js"
+    "static/css/main.38c02fc4.css",
+    "static/js/main.69285a38.js"
   ]
 }
