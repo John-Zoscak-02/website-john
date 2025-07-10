@@ -38,7 +38,7 @@ Mixins
 *********************************/
  @mixin breakpoint($point) {
    @if $point == desktop {
-     @media (min-width: 1200px) { @content ; }
+     @media (min-width: 1260px) { @content ; }
   }
    @else if $point == laptop {
      @media (min-width: 992px) { @content ; }
@@ -83,7 +83,7 @@ Grid
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  @include breakpoint(phablet) {
+  @include breakpoint(tablet) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -95,6 +95,13 @@ Grid
   }
   justify-items: center;
 }
+
+.grid-5-h {
+  @extend .grid-h;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
 
 /*********************************
 Text

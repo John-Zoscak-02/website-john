@@ -41,8 +41,8 @@ Header
       top: 74px;
       left: 36px;
     }
-    backdrop-filter: blur(4px) brightness(1.8);
-    -webkit-backdrop-filter: blur(4px) brightness(1.8);
+    backdrop-filter: blur(8px) brightness(2) saturate(0.5);
+    -webkit-backdrop-filter: blur(8px) brightness(2) saturate(0.5);
   }
 }
 
@@ -110,6 +110,10 @@ Landing
   .about-me {
     padding-bottom: 16px;
     padding-right: 16px;
+    img {
+      padding: 8px;
+      max-height: 96px;
+    }
   }
   .landing-image-container {
     display: contents;
@@ -154,7 +158,7 @@ Skills
   justify-content: center;
   .skills-container {
     @extend .grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     max-width: 250px;
     @include breakpoint('tablet') {
       grid-template-columns: repeat(6, 1fr);
@@ -172,15 +176,13 @@ Skills
       transform: scale(1.3);
     }
     img {
-      padding: 16px;
-      width: 84px;
-      height: 84px;
+      padding: 8px;
+      max-width: 96px;
+      max-height: 96px;
       @include breakpoint('tablet') {
         width: auto;
         height: auto;
       }
-      //image-rendering: crisp-edges;
-      size: inherit;
     }
   }
 }
@@ -195,8 +197,12 @@ Projects
     grid-template-columns: repeat(1, 1fr);
     max-width: 450px;
     @include breakpoint('laptop') {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 900px;
+    }
+    @include breakpoint('desktop') {
       grid-template-columns: repeat(3, 1fr);
-      max-width: 1200px;
+      max-width: 1260px;
     } 
     align-self: center;
     justify-content: center;

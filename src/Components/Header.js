@@ -31,7 +31,7 @@ const Header = (props) => {
           {/* <Typography variant='h4' theme={whiteText} align='left'><b>&#60;/&#62;</b></Typography> */}
           <Typography variant='h4' align='left'>Hello, my name is</Typography>
           <Typography variant='h1' align='left'>John Zoscak</Typography>
-          <Typography variant='h6' align='left'>BSCS student at UVA</Typography>
+          <Typography variant='h6' align='left'>UVA Graduate</Typography>
           <Typography variant='h4' align='left'><b>&#60;/&#62;</b></Typography>
         </div>
       </div>

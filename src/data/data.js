@@ -36,19 +36,19 @@ export const projectData = [
     {
         name: "Guided-Cost Learning",
         image: project15,
-        description: "Designed an AI model to learn the behavior of boundedly rational stochastic agents interacting in a dynamic game. The model learns a control, cost, and dynamics function for multi-robot systems operating in a simulated game.",
+        description: "With a team of two others, I designed an AI model to learn the behavior of boundedly rational stochastic agents interacting in a dynamic game for my Multi-Robot Navigation Final Project. The model learns a control, cost, and dynamics function for multi-robot systems operating in a simulated game.",
         link: "/",
     },
     {
         name: "Dotfiles and WM Software",
         image: project16,
-        description: "My personal stack for the AwesomeWM window manager. It s a simple and lightweight rice of the AwesomeWM window manager. Utilizing LUA, community-designed widgets and tools - It includes the full functionality of the awesome window manager, has a simple yet fully functional topbar for important computer statistics, and works with multiple displays and changing desktop / laptop configurations.", 
+        description: "My personal stack for the AwesomeWM window manager. It is a simple and lightweight rice of the AwesomeWM window manager. Utilizing LUA, community-designed widgets and tools - It includes the full functionality of the awesome window manager, has a simple yet fully functional topbar for important computer statistics, and works with multiple displays and changing desktop / laptop configurations.", 
         link: "/",
     },
     {
         name: "Learning in Robotics",
         image: project17,
-        description: "",
+        description: "I solved a markov decision problem, programmed an UKF (Unscented Kalman filter) using quaternion math with IMU data and Vicon (image) data. I implemented a simple linear quadratic regulator, implemented SLAM (Simultaneous Localization and Mapping) using real LiDAR data, trained an Actor-Critic Neural Network and trained a Q-learning model.",
         link: "/",
     },
     {
@@ -60,19 +60,19 @@ export const projectData = [
     {
         name: "Natural Langauge Processing Poisoning Llama2",
         image: project19,
-        description: "",
-        link: "/",
+        description: "Using the pre-trained and finetuned Llama2 model, I implemented a simple text poisoning model to produce noisy subsets of the ultra-chat testing set. Using this, I trained new LLMs with post-finetuning to understand the effects of random character noise or semantic and lexical performance of Llama2 models.",
+
     },
     {
         name: "Computer Vision - Real time Surface Reconstruction",
         image: project20,
-        description: "",
+        description: "Helped create a modular pipeline for real-time surface reconstruction from monocular video. It integrates keypoint detection, vertex selection, and mesh generation into a unified system to produce 3D models from video input. I surveyed orbslam3, CoTracker, and Photo-SLAM algorithms in this research.",
         link: "/",
     },
     {
         name: "Portfolio Website",
         image: project1,
-        description: "This porfolio website was implemented using React JS, HTML, SCSS and Material UI. The structures and layouts that contain the components of the website were designed and implemented by myself",
+        description: "This porfolio website was implemented using React JS, HTML, SCSS and Material UI. The structures and layouts that contain the components of the website were designed and implemented by myself. The website is hosted on GitHub pages, and the source code is available on my GithHub. Additionally, this website is responsive and works on desktop, tablet, and mobile devices.",
         link: "https://github.com/John-Zoscak-02/website-john",
     },
     {
