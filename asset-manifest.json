@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-john/static/css/main.38c02fc4.css",
-    "main.js": "/website-john/static/js/main.69285a38.js",
+    "main.css": "/website-john/static/css/main.cb78b0f2.css",
+    "main.js": "/website-john/static/js/main.92481f11.js",
     "static/media/project13.png": "/website-john/static/media/project13.6a3036b4875522bcc29e.png",
     "static/media/project3.png": "/website-john/static/media/project3.ffe287c6a51b7a1b2f56.png",
     "static/media/project20.png": "/website-john/static/media/project20.4cf17c48c76efeea9c4b.png",
@@ -52,16 +52,17 @@
     "index.html": "/website-john/index.html",
     "static/media/code.svg": "/website-john/static/media/code.209be62bf5ebd82f31ceb1d62a831b71.svg",
     "static/media/altamira-a.svg": "/website-john/static/media/altamira-a.285357ec46c65422ddcb1197acbb57b2.svg",
+    "static/media/email.svg": "/website-john/static/media/email.8cd101eb5f737c27e91052a56f1a5dec.svg",
     "static/media/css3.svg": "/website-john/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html5.svg": "/website-john/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/projects.svg": "/website-john/static/media/projects.a9f010bff1257669e27a827f354c6dcb.svg",
-    "static/media/contact.svg": "/website-john/static/media/contact.7a19469645cfc3b8dfaec79fc790e70d.svg",
+    "static/media/phone.svg": "/website-john/static/media/phone.7a19469645cfc3b8dfaec79fc790e70d.svg",
     "static/media/cmake.svg": "/website-john/static/media/cmake.401f4f5f8e1d4aad874750e5123b36d4.svg",
-    "main.38c02fc4.css.map": "/website-john/static/css/main.38c02fc4.css.map",
-    "main.69285a38.js.map": "/website-john/static/js/main.69285a38.js.map"
+    "main.cb78b0f2.css.map": "/website-john/static/css/main.cb78b0f2.css.map",
+    "main.92481f11.js.map": "/website-john/static/js/main.92481f11.js.map"
   },
   "entrypoints": [
-    "static/css/main.38c02fc4.css",
-    "static/js/main.69285a38.js"
+    "static/css/main.cb78b0f2.css",
+    "static/js/main.92481f11.js"
   ]
 }
