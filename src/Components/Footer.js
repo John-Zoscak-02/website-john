@@ -8,6 +8,9 @@ import Linkedin from '../images/icons/linkedin-dark.png';
 import JZ from '../images/jz.png';
 import Center from '../svgs/center.svg';
 
+import phone from '../images/icons-svgs/phone.svg';
+import email from '../images/icons-svgs/email.svg';
+
 const Footer = (props) => {
   return (
     <div className='footer'>
@@ -18,8 +21,14 @@ const Footer = (props) => {
       </div>
       <div className='footer-content'>
         <div className='contact'>
-          <Link className='grow' underline='none' color='inherit'>{'(703) 935-6163'}</Link>
-          <Link className='grow' underline='hover' color='inherit' href='mailto:jzoscak@email.virginia.edu, jzoscak02@gmail.com'>{'jzoscak@email.virginia.com'}</Link>
+          <div className='row'>
+            <img src={phone} alt="•"/>
+            <Link underline='none' color='inherit'>{'(703) 935-6163'}</Link>
+          </div>
+          <div className='row'>
+            <img src={email} alt="•" />
+            <Link underline='hover' color='inherit' href='mailto:jzoscak@email.virginia.edu, jzoscak02@gmail.com'>{'jzoscak@email.virginia.com'}</Link>
+          </div>
         </div>
         <img className='icon grow' src={JZ} alt='jz icon'/>
         <div className='socials' ref={props.compRef}>

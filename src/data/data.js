@@ -52,9 +52,9 @@ export const projectData = [
         link: "/",
     },
     {
-        name: "Benchmarking and Surveying: CRYSTALS-kyber",
+        name: "Benchmarking and Surveying CRYSTALS-kyber",
         image: project18,
-        description: "Testing, benchmarking, and assessing the feasibility of CRYSTALS-kyber as a post-quantum cryptography algorithm for the future of network security",
+        description: "Testing, benchmarking, and assessing kyber as a post-quantum cryptography algorithm for the future of network security",
         link: "/",
     },
     {
@@ -96,7 +96,7 @@ export const projectData = [
     {
         name: "Geometry Image 3D Model Parameterization",
         image: project11,
-        description: "For my graduate level geometry of data class, me and a partner decided to implment 3d model cutting and parameterization into geometry images. Our work was intended to test the efficiency and practicality of 3D model compression as well as alternative 3d geometry dimensionality reductions methods.",
+        description: "For my graduate level geometry of data class, me and a partner decided to implement 3d model cutting and parameterization into geometry images. Our work was intended to test the efficiency and practicality of 3D model compression as well as alternative 3d geometry dimensionality reductions methods.",
         link: "https://github.com/John-Zoscak-02/geometry-images",
     }, 
     {

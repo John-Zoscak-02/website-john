@@ -20,7 +20,7 @@ import about from '../images/icons-svgs/about-me.svg';
 import resume from '../images/icons-svgs/resume.svg';
 import code from '../images/icons-svgs/code.svg';
 import projects from '../images/icons-svgs/projects.svg';
-import contact from '../images/icons-svgs/contact.svg';
+import contact from '../images/icons-svgs/phone.svg';
 
 import '../styles/global.scss';
 

@@ -357,11 +357,21 @@ Footer
       }
     }
     .contact {
-      display: grid;
-      grid-template-rows: repeat(2, 1fr);
-      justify-content: left;
-      & > * {
-        margin: 4px;
+      display: flex;
+      flex-direction: column;
+      align-content: baseline;
+      .row{
+        margin: 0px 0px 8px 0px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        float: left;
+        img {
+          max-height: 16px;
+          max-width: 16px;
+          margin-right: 6px;
+        }
       }
     }
   }
