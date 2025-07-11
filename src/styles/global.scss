@@ -88,7 +88,7 @@ Mixins
      @media (min-width: 500px) { @content ; } 
   }
   @else if $point == mobileonly {
-     @media (max-width: 350px) { @content ; }
+     @media (max-width: 500px) { @content ; }
 
   }
 }

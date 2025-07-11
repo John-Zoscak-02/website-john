@@ -337,8 +337,9 @@ Footer
     grid-template-columns: repeat(3, 1fr);
     @include breakpoint('mobileonly') {
       grid-template-columns: none;
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
       justify-content: center;
+      gap: 24px;
     }    
     align-items: center;
     .icon {
@@ -359,9 +360,9 @@ Footer
       float: right;
       right: 32px;
       @include breakpoint('mobileonly') {
+        display: inherit;
         position: inherit;
         float: none;
-        margin-top: 32px;
       }
       z-index: 2;
       //padding: 6px;
