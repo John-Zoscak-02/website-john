@@ -48,7 +48,7 @@ export const projectData = [
     {
         name: "Learning in Robotics",
         image: project17,
-        description: "I solved a markov decision problem, programmed an UKF (Unscented Kalman filter) using quaternion math with IMU data and Vicon (image) data. I implemented a simple linear quadratic regulator, implemented SLAM (Simultaneous Localization and Mapping) using real LiDAR data, trained an Actor-Critic Neural Network and trained a Q-learning model.",
+        description: "I solved a markov decision problem, programmed an UKF (Unscented Kalman Filter) using quaternion math with IMU data and Vicon (image) data. I implemented a simple linear quadratic regulator, implemented SLAM (Simultaneous Localization and Mapping) using real LiDAR data, trained an Actor-Critic Neural Network and trained a Q-learning model.",
         link: "/",
     },
     {
@@ -64,7 +64,7 @@ export const projectData = [
 
     },
     {
-        name: "Computer Vision - Real time Surface Reconstruction",
+        name: "Computer Vision - Real Time Surface Reconstruction",
         image: project20,
         description: "Helped create a modular pipeline for real-time surface reconstruction from monocular video. It integrates keypoint detection, vertex selection, and mesh generation into a unified system to produce 3D models from video input. I surveyed orbslam3, CoTracker, and Photo-SLAM algorithms in this research.",
         link: "/",
@@ -78,25 +78,25 @@ export const projectData = [
     {
         name: "F1Tenth Robot",
         image: project10,
-        description: "This project was my group's submission for the F1Tenth style autonomous vehicles class that I am a part of. Work was done in Python using ROS1 melodic. Some of the modules that we worked on include: Moving body particle filters, PID controllers, Pure Pursuit, Disparity Extension, Google Cartographer, Wall Following, and Follow the Gap. My team placed first in the class competition for race time trials, and 3rd for head-to-head with obstacle avoidance.",
+        description: "This project was my group's submission for the F1Tenth style autonomous vehicles class that I am a part of. Work was done in Python using ROS1 melodic. Some of the modules that we worked on include: moving body particle filters, PID controllers, Pure Pursuit, Disparity Extension, Google Cartographer, Wall Following, and Follow the Gap. My team placed first in the class competition for race time trials, and 3rd for head-to-head with obstacle avoidance.",
         link: "https://github.com/John-Zoscak-02/f1tenth-robot",
     }, 
     {
-        name: "ILITE 2020 robot",
+        name: "ILITE 2020 Robot",
         image: project3,
-        description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the telemetry system, and an evasive movement function.",
+        description: "Working with a team of 11 programmers on the ILITE robotics robot code in a git repository. I implemented an autonomous color wheel program to match the competition requirements, integrating streamed logging into the inter-process communication system, and an evasive movement function.",
         link: "https://github.com/iliterobotics/FRC-Robot-2020/",
     },
     {
         name: "Terrain Generation",
         image: project2,
-        description: "For my first project in Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation.",
+        description: "In Golang, I decided to make a progressive Perlin Noise terrain generator that displays terrains using a Golang bindings library for OpenGL. This project features terrain generation from json data, and can produce more unique terrains using \"Bipartite\" generation - which applies two perlin processes in parallel.",
         link: "https://github.com/John-Zoscak-02/terrain-generation",
     }, 
     {
         name: "Geometry Image 3D Model Parameterization",
         image: project11,
-        description: "For my graduate level geometry of data class, me and a partner decided to implement 3d model cutting and parameterization into geometry images. Our work was intended to test the efficiency and practicality of 3D model compression as well as alternative 3d geometry dimensionality reductions methods.",
+        description: "For my graduate level \"Geometry of Data\" class, me and a partner decided to implement 3D model cutting and parameterization into geometry images. Our work was intended to test the efficiency and practicality of 3D model compression as well as alternative 3D geometry dimensionality reductions methods. This project demonstrates the use of geometry images to represent 3D models in 2D space.",
         link: "https://github.com/John-Zoscak-02/geometry-images",
     }, 
     {
@@ -112,9 +112,9 @@ export const projectData = [
         link: "https://devpost.com/software/guideroom?ref_content=user-portfolio&ref_feature=in_progress",
     },
     {
-        name: "Glimmr website",
+        name: "Glimmr Website",
         image: project6,
-        description: "Working with a team of 6 programmers to implement several frontend features of Glimmr's website using React JS. Worked briefly on writing tests in typescript for Glimmr's app, and wrote a custom messaging UI from scratch. This work was my first exposure to frontend development.",
+        description: "Working with a team of 6 programmers to implement several frontend features of Glimmr's website using React JS. Worked briefly on writing tests in typescript for Glimmr's app, wrote a custom messaging UI from scratch ReactJS, and improved the features and the design of the website. Glimmr was my first exposure to frontend development, and I did self-guided learning to contribute to the project.",
         link: "https://github.com/glimmr-app/",
     },
     {
@@ -126,7 +126,7 @@ export const projectData = [
     {
         name: "Embedded Computing Robot",
         image: project8,
-        description: "Designing and Programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include power control modules, SPI, interrupts, and timers.",
+        description: "Designing and programming robust finite state machines to solve a maze and follow lines. The finite state machine was produced in a manner to self-correct wobble as it traverses the line. C and low-level driver libraries were used to interact with the hardware of the robot. Technologies used include power control modules, SPI, interrupts, and timers.",
         link: "https://github.com/John-Zoscak-02/Embedded",
     },
     // {
