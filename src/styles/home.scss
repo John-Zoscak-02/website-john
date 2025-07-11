@@ -32,12 +32,21 @@ Header
     flex-direction: column;
     position: absolute;
     float: top left;
-    top: 24px;
+    top: 74px;
     left: 24px;
     font-weight: bolder;
     background: rgba(255, 255, 255, 0.3);
+    img{
+      width: 48px;
+      height: 48px;
+      margin: 16px;
+    }
     h1 {
      font-size: 72px;
+    }
+    @include breakpoint('mobileonly') {
+      width: min-content;
+      h1 {font-size: 48px }
     }
     @include breakpoint('phablet') {
       h1 {font-size: 84px;}
@@ -56,7 +65,7 @@ Header
 Topbar
 ========================================================= */
 .topbar {
-  display: none;
+  display: block; 
   position: fixed;
   top: 8px;
   width: 100%;
@@ -64,9 +73,6 @@ Topbar
   z-index: 1000;
   transition: transform 0.3s ease-in-out; /* Smooth slide effect */
   transform: translateY(0); /* Visible by default */
-  @include breakpoint('tablet') {
-    display: block; /* Show on tablet and larger */
-  }
 
   &.hidden {
     transform: translateY(-200%); /* Slide up to hide */
@@ -123,6 +129,12 @@ Topbar
       }
     }
   }
+}
+
+.menu-img {
+  max-height: 16px;
+  max-width: 16px;
+  margin-right: 6px;
 }
 
 /* =========================================================
@@ -190,8 +202,10 @@ Landing
     padding-bottom: 16px;
     padding-right: 16px;
     img {
+      display: gird;
       padding: 8px;
       max-height: 96px;
+      max-width: 100%;
     }
   }
   .landing-image-container {
@@ -299,7 +313,10 @@ Projects
       .project {
         padding: 8px;
         @include breakpoint('laptop') {
-          height: 648px;
+          height: 675px;
+        }        
+        @include breakpoint('desktop') {
+          height: 660px;
         }        
         img {
           max-block-size: inherit;

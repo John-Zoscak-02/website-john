@@ -88,7 +88,7 @@ Mixins
      @media (min-width: 500px) { @content ; } 
   }
   @else if $point == mobileonly {
-     @media (max-width: 500px) { @content ; }
+     @media (max-width: 350px) { @content ; }
 
   }
 }
@@ -133,7 +133,9 @@ Grid
 
 .grid-5-h {
   @extend .grid-h;
-  grid-template-columns: repeat(5, 1fr);
+  // grid-template-columns: repeat(5, 1fr);
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
   justify-items: center;
 }
 
@@ -194,5 +196,6 @@ decoration / divider
   display: block;
   align-self: center;
   width: 25%;
+  min-width: 136px; /* Adjust size as needed */
   max-width: 180px; /* Adjust size as needed */
 }

@@ -26,10 +26,10 @@ const Footer = (props) => {
           <div className='socials'>
             <IconButton size='small' onClick={() => {
               window.open('https://github.com/John-Zoscak-02/', "_blank")
-            }}><img classname='sc_lnk' src={Github} alt='GH' /></IconButton>
+            }}><img className='sc_lnk' src={Github} alt='GH' /></IconButton>
             <IconButton size='small' onClick={() => {
               window.open('https://www.linkedin.com/in/john-mzoscak/', "_blank");
-            }}><img classname='sc_lnk' src={Linkedin} alt='in' /></IconButton>
+            }}><img className='sc_lnk' src={Linkedin} alt='in' /></IconButton>
           </div>
         </div>
       {/*</Fade>*/}
