@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-john/static/css/main.cb78b0f2.css",
-    "main.js": "/website-john/static/js/main.92481f11.js",
+    "main.css": "/website-john/static/css/main.c199c32c.css",
+    "main.js": "/website-john/static/js/main.630f4fcb.js",
     "static/media/project13.png": "/website-john/static/media/project13.6a3036b4875522bcc29e.png",
     "static/media/project3.png": "/website-john/static/media/project3.ffe287c6a51b7a1b2f56.png",
     "static/media/project20.png": "/website-john/static/media/project20.4cf17c48c76efeea9c4b.png",
@@ -48,6 +48,7 @@
     "static/media/gitlab.svg": "/website-john/static/media/gitlab.5a1c3c29a62a60d48bf876a38ee27c7b.svg",
     "static/media/java.svg": "/website-john/static/media/java.0912963d8a8f766502ddb26d9cf1a5b1.svg",
     "static/media/git.svg": "/website-john/static/media/git.98b115687dfc759d25ae8a1d8f7d7d32.svg",
+    "static/media/settings.svg": "/website-john/static/media/settings.4d0342ecab86e1b1bd56c7f389a010ab.svg",
     "static/media/about-me.svg": "/website-john/static/media/about-me.66ec6c3348e249d8e53e2bd84cf9e68b.svg",
     "index.html": "/website-john/index.html",
     "static/media/code.svg": "/website-john/static/media/code.209be62bf5ebd82f31ceb1d62a831b71.svg",
@@ -58,11 +59,11 @@
     "static/media/projects.svg": "/website-john/static/media/projects.a9f010bff1257669e27a827f354c6dcb.svg",
     "static/media/phone.svg": "/website-john/static/media/phone.7a19469645cfc3b8dfaec79fc790e70d.svg",
     "static/media/cmake.svg": "/website-john/static/media/cmake.401f4f5f8e1d4aad874750e5123b36d4.svg",
-    "main.cb78b0f2.css.map": "/website-john/static/css/main.cb78b0f2.css.map",
-    "main.92481f11.js.map": "/website-john/static/js/main.92481f11.js.map"
+    "main.c199c32c.css.map": "/website-john/static/css/main.c199c32c.css.map",
+    "main.630f4fcb.js.map": "/website-john/static/js/main.630f4fcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb78b0f2.css",
-    "static/js/main.92481f11.js"
+    "static/css/main.c199c32c.css",
+    "static/js/main.630f4fcb.js"
   ]
 }
