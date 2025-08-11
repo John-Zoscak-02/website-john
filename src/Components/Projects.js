@@ -7,7 +7,9 @@ import Center from '../svgs/center.svg';
 const Projects = (props) => {
   const handleCardClick = (url) => {
     setTimeout(function(){}, '1000');
-    window.open(url, "_blank")
+    if (url !== '.') {
+      window.open(url, "_blank")
+    }
   }
 
   return (

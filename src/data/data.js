@@ -25,7 +25,7 @@ export const projectData = [
         name: "Cavalier Autonomous Racing",
         image: project13,
         description: "Using C++ to write common robotics, data processing and synthesizing libraries. Used physics and dynamic models to better calculate future states of a racing vehicle. And developed at Indianapolis Speedway and Las Vegas Speedway.",
-        link: "autonomousracing.dev",
+        link: "https://autonomousracing.dev",
     },
     {
         name: "Advanced Embedded Project",
@@ -67,7 +67,7 @@ export const projectData = [
         name: "Computer Vision - Real Time Surface Reconstruction",
         image: project20,
         description: "Helped create a modular pipeline for real-time surface reconstruction from monocular video. It integrates keypoint detection, vertex selection, and mesh generation into a unified system to produce 3D models from video input. I surveyed orbslam3, CoTracker, and Photo-SLAM algorithms in this research.",
-        link: "https://github.com/John-Zoscak-02/nlp-poisoning",
+        link: "https://github.com/myfatemi04/uva-3d-computer-vision-project",
     },
     {
         name: "Portfolio Website",
