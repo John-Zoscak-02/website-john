@@ -201,11 +201,26 @@ Landing
   .about-me {
     padding-bottom: 16px;
     padding-right: 16px;
+    .org-icon {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      width: fit-content;
+      height: fit-content;
+      img {
+        display: flex;
+        padding: 8px;
+        max-height: 96px;
+        width: auto;
+        image-rendering: optimizeQuality;
+      }
+    }
     img {
-      display: gird;
+      display: flex;
       padding: 8px;
       max-height: 96px;
-      max-width: 100%;
+      width: auto;
+      image-rendering: optimizeQuality;
     }
   }
   .landing-image-container {
@@ -218,6 +233,31 @@ Landing
       border-radius: 8px;
     }
   }
+  .work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .riverside-icon {
+      display: flex;
+      flex-direction: row;;
+      width: fit-content;
+      padding-top: 6px;
+      padding-left: 18px;
+      padding-right: 18px;
+      border-radius: 3rem;
+      box-shadow: 1px 1px 8px;
+      background-color: rgba(11,52,88,1);
+      position: relative;
+      img {
+        max-height: 64px;
+        max-width: 100%;
+        align-self: center;
+        image-rendering: optimizeQuality;
+      }
+    }
+  }
+  
   .resize {
     max-width: 100%;
   }

@@ -13,11 +13,12 @@ const Featured = (props) => {
           <div class="divider right"></div>
       </div>
       <div className='grid-h'>
-          <Link href='https://drive.google.com/file/d/1m_nuEbTWBj28Qx-Y4m2-qYuOb9boJ521/preview' target='_blank' color='inherit' underline='hover'>
+          {/* <Link href='https://drive.google.com/file/d/1m_nuEbTWBj28Qx-Y4m2-qYuOb9boJ521/preview' target='_blank' color='inherit' underline='hover'> */}
+          <Link href='https://drive.google.com/file/d/1Zlk7vhAJOwWCjK0sGSrC6mbgsLRL3_kT/preview' target='_blank' color='inherit' underline='hover'>
             <Typography variant='h3'>Resume</Typography>
           </Link>
         <div className='pdf'>
-            <iframe title='John Zoscak Resume, 2021' src='https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1m_nuEbTWBj28Qx-Y4m2-qYuOb9boJ521&hl=en&embedded=true' alt='PDF of Resume' frameborder="0" />
+            <iframe title='John Zoscak Resume, 2025' src='https://docs.google.com/gview?a=v&pid=explorer&chrome=false&api=true&embedded=true&srcid=1Zlk7vhAJOwWCjK0sGSrC6mbgsLRL3_kT&hl=en&embedded=true' alt='PDF of Resume' frameborder="0" />
         </div>
       </div>
     </div>
