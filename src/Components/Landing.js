@@ -27,13 +27,13 @@ const Landing = (props) => {
           <Typography variant='subtitle1'>Previous developer with Johns Hopkins University Applied Physics Laboratory, Altamira Technologies Corporation, and Cavalier Autonomous Racing</Typography>
           <div className='grid-5-h'>
             <div className="org-icon grow"><a href="https://www.cru.org/" target='_blank' rel="noreferrer"><img src={cru} alt="cru" /></a></div>
-            <img src={uva} alt="UVA Logo" className='grow' />
-            <img src={cavauto} alt="Cavauto" className='grow' />
-            <img src={altamira} alt="Altamira" className='grow' />
-            <img src={apl} alt="APL" className='grow' />
+            <div className="org-icon grow"><a href="https://www.virginia.edu/" target='_blank' rel="noreferrer"><img src={uva} alt="UVA Logo" className='grow' /></a></div>
+            <div className="org-icon grow"><a href="https://autonomousracing.dev/" target='_blank' rel="noreferrer"><img src={cavauto} alt="Cavauto" className='grow' /></a></div>
+            <div className="org-icon grow"><a href="https://www.altamiracorp.com/" target='_blank' rel="noreferrer"><img src={altamira} alt="Altamira" className='grow' /></a></div>
+            <div className="org-icon grow"><a href="https://www.jhuapl.edu/" target='_blank' rel="noreferrer"><img src={apl} alt="APL" className='grow' /></a></div>
           </div>
           <div className="work">
-            <Typography variant='subtitle1' fontWeight="bold">Software Developer at:</Typography> 
+            <Typography variant='subtitle1' fontWeight="bold">I accepted an offer at:</Typography> 
             <div className="riverside-icon grow">
               <a href='https://www.riversideresearch.org' target='_blank' rel="noreferrer">
                 <img src={riverside} alt="Riverside Research"/>

@@ -133,8 +133,8 @@ Grid
 
 .grid-5-h {
   @extend .grid-h;
-  // grid-template-columns: repeat(5, 1fr);
-  grid-auto-columns: minmax(0, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  // grid-auto-columns: minmax(0, 1fr);
   grid-auto-flow: column;
   justify-items: center;
 }
