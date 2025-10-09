@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-john/static/css/main.64d60336.css",
-    "main.js": "/website-john/static/js/main.46fb86a5.js",
+    "main.css": "/website-john/static/css/main.49bc9b75.css",
+    "main.js": "/website-john/static/js/main.179c83bc.js",
     "static/media/project13.png": "/website-john/static/media/project13.6a3036b4875522bcc29e.png",
     "static/media/project3.png": "/website-john/static/media/project3.ffe287c6a51b7a1b2f56.png",
     "static/media/project20.png": "/website-john/static/media/project20.4cf17c48c76efeea9c4b.png",
@@ -59,11 +59,11 @@
     "static/media/projects.svg": "/website-john/static/media/projects.a9f010bff1257669e27a827f354c6dcb.svg",
     "static/media/phone.svg": "/website-john/static/media/phone.7a19469645cfc3b8dfaec79fc790e70d.svg",
     "static/media/cmake.svg": "/website-john/static/media/cmake.401f4f5f8e1d4aad874750e5123b36d4.svg",
-    "main.64d60336.css.map": "/website-john/static/css/main.64d60336.css.map",
-    "main.46fb86a5.js.map": "/website-john/static/js/main.46fb86a5.js.map"
+    "main.49bc9b75.css.map": "/website-john/static/css/main.49bc9b75.css.map",
+    "main.179c83bc.js.map": "/website-john/static/js/main.179c83bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.64d60336.css",
-    "static/js/main.46fb86a5.js"
+    "static/css/main.49bc9b75.css",
+    "static/js/main.179c83bc.js"
   ]
 }
