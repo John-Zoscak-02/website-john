@@ -223,7 +223,7 @@ Landing
     img {
       width: 100%;
       @include breakpoint('largemobile') {
-        max-width: 384px;
+        max-width: 448px;
       }
       border-radius: 8px;
     }
@@ -234,14 +234,15 @@ Landing
     justify-content: center;
     align-items: center;
     margin-top: 16px;
+    gap: 15px;
     .riverside-icon {
       display: flex;
       flex-direction: row;;
       width: fit-content;
-      padding: 6px 18px 0 18px;
+      padding: 6px 20px 0 18px;
       border-radius: 3rem;
       box-shadow: 1px 1px 8px;
-      background-color: rgba(11,52,88,1);
+      background: linear-gradient(0deg, rgba(13,77,126,1) 0%, rgba(11,52,88,1) 61%, rgba(9,36,65,1) 100%);
       position: relative;
       img {
         max-height: 64px;

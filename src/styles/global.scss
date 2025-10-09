@@ -113,6 +113,15 @@ Grid
   padding: 16px;
 }
 
+.grid-center {
+  @extend .grid;
+  padding: 16px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+
 .grid-2-h {
   @extend .grid-h;
   max-width: 1200px;
